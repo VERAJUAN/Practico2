@@ -1,20 +1,17 @@
 #include "stdafx.h"
 
-#define PI 3.1415
+double pi = 3.1415;
 
 float cuad(float n) {
-	n *= n;
-	return n;
+	return n * n;
 }
 
 float sum(float n1, float n2) {
-	n1 += n2;
-	return n1;
+	return n1 + n2;
 }
 
-float area(float r) {
-	r = ((r * r) * PI);
-	return r;
+double area(double r) {
+	return (r * r) * pi;
 }
 
 float max(float n1, float n2) {
