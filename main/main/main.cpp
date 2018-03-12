@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <iostream>
 #include "Operaciones_matematicas.h"
+#include "Operaciones_preprocesador.h"
 
 using namespace std;
 
@@ -12,7 +13,8 @@ void main(void)
 {
 	bool flag = true;
 	int opcion;
-	float n1, n2; double r;
+	int hola = 0, pepe = 124;
+	float n1, n2;
 	do
 	{	
 	
@@ -36,13 +38,20 @@ void main(void)
 			printf("Resultado:%.2f\n", sum(n1,n2));
 			break;
 		case 3:
-			cout << "\nIngrese el radio del circuloo:\n";
-			cin >> r;
-			printf("Resultado:%.2f\n", area(r));
+			cout << "\nIngrese el radio del circulo:\n";
+			cin >> n1;
+			printf("El area es:%.2f\n", area(n1));
 			break;
 		case 4:
+			cout << "\nIngrese el primer numero:\n";
+			cin >> n1;
+			cout << "\nIngrese el segundo numero:\n";
+			cin >> n2;
+			printf("El numero mayor es:%.2f\n", max(n1,n2));
 			break;
-		case 5:
+		case 5:			
+			conc(hola, pepe);
+			printf("\n");
 			break;	
 		case 0:
 			flag = false;
