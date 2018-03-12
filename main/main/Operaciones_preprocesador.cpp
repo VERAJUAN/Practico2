@@ -4,7 +4,6 @@
 using namespace std;
 
 
-char conc(int v1, int v2) {
-	const char *str = CONC(v1, v2);
-	return *str;
+string conc(int v1, int v2) {    
+	return CONC(v1, v2);
 }

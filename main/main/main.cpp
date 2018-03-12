@@ -6,6 +6,8 @@
 #include <iostream>
 #include "Operaciones_matematicas.h"
 #include "Operaciones_preprocesador.h"
+#include "Operaciones_String.h"
+#include "Operaciones_binarias.h"
 
 using namespace std;
 
@@ -50,9 +52,12 @@ void main(void)
 			printf("El numero mayor es:%.2f\n", max(n1,n2));
 			break;
 		case 5:			
-			conc(hola, pepe);
+			cout<<conc(hola, pepe);
 			printf("\n");
 			break;	
+		case 6:
+
+			break;
 		case 0:
 			flag = false;
 			break;

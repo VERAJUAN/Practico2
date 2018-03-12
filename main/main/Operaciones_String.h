@@ -1,0 +1,6 @@
+#ifndef OPERACIONESSTRING
+#define OPERACIONESSTRING
+
+
+
+#endif
