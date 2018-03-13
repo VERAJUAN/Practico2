@@ -9,6 +9,7 @@
 #include "Operaciones_preprocesador.h"
 #include "Operaciones_String.h"
 #include "Operaciones_binarias.h"
+#include "Operaciones_logicas.h"
 
 using namespace std;
 
@@ -18,14 +19,13 @@ void main(void)
 	char v2 = 'b';
 	char palabra1[] = "";
 	char palabra2[] = "";
-	
 	bool flag = true;
-	int opcion;
+	int opcion, x = 1, y = 2;
 	float n1, n2;
 	do
 	{	
 	
-	printf("\nOperaciones a realizar:\n1- El cuadrado de un numero.\n2- La suma de dons numeros.\n3- El area de un circulo.\n4- El maximo de dos numeros.\n5- Concatencion de nombres de variables.\n6- Imprimir por pantalla un texto.\n7- Comparacion de cadena.\n8- Operaciones binarias.\n9- Operaciones logicas.\n0- Salir.\nIngrese opcion:\n");
+	printf("\nOperaciones a realizar:\n1- El cuadrado de un numero.\n2- La suma de dons numeros.\n3- El area de un circulo.\n4- El maximo de dos numeros.\n5- Concatencion de nombres de variables.\n6- Imprimir por pantalla un texto.\n7- Comparacion de cadena.\n8- Operaciones logicas.\n9- Operaciones binarias.\n0- Salir.\nIngrese opcion:\n");
 	
 	cin >> opcion;
 	
@@ -74,11 +74,16 @@ void main(void)
 			}
 			break;
 		case 8:
+			interc(x, y);
+			break;
+		case 9:
+			interc(x, y);
 			break;
 		case 0:
 			flag = false;
 			break;
 		default:
+			printf("\nLa opcion no existe.\n");
 			break;
 		}
 
