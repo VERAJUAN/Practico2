@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Operaciones_binarias.h" />
+    <ClInclude Include="Operaciones_logicas.h" />
     <ClInclude Include="Operaciones_matematicas.h" />
     <ClInclude Include="Operaciones_preprocesador.h" />
     <ClInclude Include="Operaciones_String.h" />
@@ -155,6 +156,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Operaciones_binarias.cpp" />
+    <ClCompile Include="Operaciones_logicas.cpp" />
     <ClCompile Include="Operaciones_matematicas.cpp" />
     <ClCompile Include="Operaciones_preprocesador.cpp" />
     <ClCompile Include="Operaciones_String.cpp" />

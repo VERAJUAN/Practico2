@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include <stdio.h>
 #include <iostream>
+#include <string>
 #include "Operaciones_matematicas.h"
 #include "Operaciones_preprocesador.h"
 #include "Operaciones_String.h"
@@ -15,8 +16,9 @@ void main(void)
 {
 	char v1 = 'a';
 	char v2 = 'b';
-	char palabra1[] ="";
-	char palabra2[]= "";
+	char palabra1[] = "";
+	char palabra2[] = "";
+	
 	bool flag = true;
 	int opcion;
 	float n1, n2;
@@ -61,7 +63,17 @@ void main(void)
 			conc(v1, v2);
 			break;
 		case 7:
-			
+			cout << "\nEscriba el texto 1:";
+			cin.getline(palabra1,250, '.');
+			cout << "\nEscriba el texto 2:";
+			cin.getline(palabra2, 250, '.');
+			if (comp(palabra1, palabra2) == 0) {
+				printf("Ambos textos son iguales\n");
+			}else{
+				printf("Ambos textos son distintos\n");
+			}
+			break;
+		case 8:
 			break;
 		case 0:
 			flag = false;

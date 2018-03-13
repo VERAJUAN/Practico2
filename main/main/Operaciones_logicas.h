@@ -1,0 +1,6 @@
+#ifndef OPERACIONESLOGICAS
+#define OPERACIONESLOGICAS
+
+
+
+#endif
