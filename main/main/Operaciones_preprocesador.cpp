@@ -1,9 +1,12 @@
 #include "stdafx.h"
 #include <string>
-#define CONC(v1,v2)  { #v1 ## #v2 }
+#include <iostream>
+#define CONC(x,y) x##y
+
 using namespace std;
 
-
-string conc(int v1, int v2) {    
-	return CONC(v1, v2);
+char conc(char v1, char v2) {
+	char CONC(v1, v2)[] = { v1, v2, '\0' };
+	cout << CONC(v1, v2);
+	return 0;
 }

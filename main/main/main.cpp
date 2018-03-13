@@ -13,9 +13,12 @@ using namespace std;
 
 void main(void)
 {
+	char v1 = 'a';
+	char v2 = 'b';
+	char palabra1[] ="";
+	char palabra2[]= "";
 	bool flag = true;
 	int opcion;
-	int hola = 0, pepe = 124;
 	float n1, n2;
 	do
 	{	
@@ -23,7 +26,7 @@ void main(void)
 	printf("\nOperaciones a realizar:\n1- El cuadrado de un numero.\n2- La suma de dons numeros.\n3- El area de un circulo.\n4- El maximo de dos numeros.\n5- Concatencion de nombres de variables.\n6- Imprimir por pantalla un texto.\n7- Comparacion de cadena.\n8- Operaciones binarias.\n9- Operaciones logicas.\n0- Salir.\nIngrese opcion:\n");
 	
 	cin >> opcion;
-
+	
 		switch (opcion)
 		{
 	
@@ -52,11 +55,13 @@ void main(void)
 			printf("El numero mayor es:%.2f\n", max(n1,n2));
 			break;
 		case 5:			
-			cout<<conc(hola, pepe);
-			printf("\n");
+			conc(v1, v2);
 			break;	
 		case 6:
-
+			conc(v1, v2);
+			break;
+		case 7:
+			
 			break;
 		case 0:
 			flag = false;
