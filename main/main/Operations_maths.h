@@ -1,8 +1,8 @@
-#ifndef OPERACIONESMATEMATICAS
-#define OPERACIONESMATEMATICAS
+#ifndef OPERATIONSMATH
+#define OPERATIONSMATH
 
 
-float cuad(float n);
+float square(float n);
 float sum(float n1, float n2);
 float area(float r);
 float max(float n1, float n2);

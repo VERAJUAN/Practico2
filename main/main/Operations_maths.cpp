@@ -2,7 +2,7 @@
 
 float pi = 3.1415;
 
-float cuad(float n) {
+float square(float n) {
 	return n * n;
 }
 

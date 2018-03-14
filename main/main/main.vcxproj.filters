@@ -24,19 +24,22 @@
     <ClInclude Include="targetver.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Operaciones_matematicas.h">
+    <ClInclude Include="Operations_maths.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Operaciones_preprocesador.h">
+    <ClInclude Include="Operations_preprocessor.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Operaciones_String.h">
+    <ClInclude Include="Operations_String.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Operaciones_binarias.h">
+    <ClInclude Include="Operations_binaries.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Operaciones_logicas.h">
+    <ClInclude Include="Operations_logical.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,19 +50,22 @@
     <ClCompile Include="main.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
-    <ClCompile Include="Operaciones_matematicas.cpp">
+    <ClCompile Include="Operations_maths.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
-    <ClCompile Include="Operaciones_preprocesador.cpp">
+    <ClCompile Include="Operations_preprocessor.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
-    <ClCompile Include="Operaciones_String.cpp">
+    <ClCompile Include="Operations_String.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
-    <ClCompile Include="Operaciones_binarias.cpp">
+    <ClCompile Include="Operations_binaries.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
-    <ClCompile Include="Operaciones_logicas.cpp">
+    <ClCompile Include="Operations_logical.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
   </ItemGroup>

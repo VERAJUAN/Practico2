@@ -1,6 +1,0 @@
-#ifndef OPERACIONESBINARIAS
-#define OPERACIONESBINARIAS
-
-
-
-#endif
