@@ -2,14 +2,16 @@
 #include <conio.h>
 #include<string>
 #include <iostream>
+#define STRCMP(a,b) (strcmp(a,b))
+#define PRINTTEXT(text1) (cout << text1)
 
 using namespace std;
 
-int comp(char palabra1[], char palabra2[]) {
-	return strcmp(palabra1, palabra2);
+int comp(char text1[], char text2[]) {
+	return STRCMP(text1,text2);
 }
 
 int printText(char text1[]) {
-	cout << text1;
+	PRINTTEXT(text1);
 	return 0;
 }
